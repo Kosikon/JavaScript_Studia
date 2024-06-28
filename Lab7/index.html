@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kulki - Paweł Sowa</title>
+</head>
+<body>
+    <header>
+        <h1>Kulki - Paweł Sowa</h1>
+    </header>
+    <div class="controls">
+        <label for="numBalls">Liczba kulek (X):</label>
+        <input type="number" id="numBalls" value="10">
+        <label for="distance">Odległość (Y):</label>
+        <input type="number" id="distance" value="100">
+        <label for="gravity">Siła Grawitacji:</label>
+        <input type="number" id="gravity" value="0.1">
+        <label for="speed">Prędkość:</label>
+        <input type="number" id="speed" value="1">
+        <button id="start">Start</button>
+        <button id="reset">Reset</button>
+    </div>
+    <canvas id="canvas" width="800" height="600"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>

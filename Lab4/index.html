@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikacja Notatek - Pawel Sowa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Moje Notatki</h1>
+        <input type="text" id="searchInput" placeholder="Wyszukaj notatki...">
+        <form id="noteForm">
+            <input type="text" id="noteTitle" placeholder="Tytuł notatki" required>
+            <textarea id="noteContent" placeholder="Treść notatki" required></textarea>
+            <input type="text" id="noteTags" placeholder="Tagi (oddziel przecinkami)">
+            <label for="noteColor">Kolor notatki:</label>
+            <input type="color" id="noteColor">
+            <label for="notePinned">Przypnij:</label>
+            <input type="checkbox" id="notePinned">
+            <button type="submit">Dodaj Notatkę</button>
+        </form>
+        <div id="notesContainer"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

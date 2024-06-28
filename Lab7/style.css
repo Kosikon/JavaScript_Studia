@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+canvas {
+    border: 1px solid black;
+}
+
+.controls {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.controls label {
+    margin-right: 10px;
+}
+
+.controls input[type="number"] {
+    width: 60px;
+}
+.controls button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background-color: #45a049;
+}

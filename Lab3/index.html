@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drum Pad - Pawel Sowa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="drum-pad">
+        <button class="drum-key" data-sound="sounds/boom.wav">Key 1</button>
+        <button class="drum-key" data-sound="sounds/clap.wav">Key 2</button>
+        <button class="drum-key" data-sound="sounds/hihat.wav">Key 3</button>
+        <button class="drum-key" data-sound="sounds/openhat.wav">Key 4</button>
+    </div>
+    <div id="controls">
+        <button id="record">Start Recording</button>
+        <button id="stop">Stop Recording</button>
+        <button id="play">Play All Looped</button>
+        <button id="add-track">Add Track</button>
+        <button id="remove-track">Remove Track</button>
+        <input type="number" id="track-length" placeholder="Track Length in ms" value="5000">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
